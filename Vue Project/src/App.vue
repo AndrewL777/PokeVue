@@ -145,7 +145,7 @@ data() {
 methods: {
   addItemToTeam(pokemon){
     this.team.push(pokemon);
-    console.log(this.team)
+
   },
   navigateTo(page) {
     this.page = page;
